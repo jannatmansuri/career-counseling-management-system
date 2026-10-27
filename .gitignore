@@ -1,0 +1,29 @@
+# Local secrets and configuration
+
+.env
+.env.*
+!.env.example
+config.local.php
+
+
+
+# Database exports
+
+*.sql
+*.sql.gz
+!database/ccms_wfs.sql
+
+# Temporary files
+
+*.log
+*.tmp
+
+# Operating system files
+
+Thumbs.db
+.DS_Store
+
+# Editor settings
+
+.vscode/
+.idea/

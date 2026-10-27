@@ -1,0 +1,133 @@
+body {
+    background-color: #f5f7fa;
+    color: #263238;
+}
+/* Final UI Polish */
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    padding: 10px 12px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.navbar .nav-link {
+    margin-left: 8px;
+}
+
+.navbar .nav-link:hover {
+    opacity: 0.75;
+}
+
+footer {
+    margin-top: 0 !important;
+}
+/* Admin Panel */
+
+.admin-stat-card {
+    border: none;
+    border-radius: 14px;
+    transition: 0.2s;
+}
+
+.admin-stat-card:hover {
+    transform: translateY(-4px);
+}
+
+.admin-management-card {
+    border: none;
+    border-radius: 14px;
+}
+
+.admin-navbar-link {
+    transition: 0.2s;
+}
+
+.admin-navbar-link:hover {
+    opacity: 0.75;
+}
+
+.dashboard-heading {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+    padding: 14px 0;
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+/* Hero */
+.hero-section {
+    background: #e8f1f5;
+    padding: 80px 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #546e7a;
+    max-width: 600px;
+}
+
+/* Section */
+.section-padding {
+    padding: 70px 0;
+}
+
+.section-title {
+    font-weight: 700;
+}
+
+/* Career cards */
+.career-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.career-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Category icon */
+.category-icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* How it works */
+.step-box {
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    height: 100%;
+}
+
+.step-number {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* CTA */
+.cta-section {
+    background: #263238;
+    color: white;
+    padding: 55px 0;
+}
